@@ -8,7 +8,7 @@ repositories {
 }
 
 dependencies {
-  compileOnly 'com.github.Taviitt:LoggerAPI:v1.0.6'
+  compileOnly 'com.github.Taviitt:LoggerAPI:master-SNAPSHOT'
 }
 ```
 
@@ -24,7 +24,7 @@ Maven
 <dependency>
   <groupId>com.github.Taviitt</groupId>
   <artifactId>LoggerAPI</artifactId>
-  <version>v1.0.6</version>
+  <version>master-SNAPSHOT</version>
 </dependency>
 ```
 
