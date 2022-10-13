@@ -31,8 +31,8 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             groupId = 'net.tavx'
-            artifactId = 'LoggerAPI'
-            version = 'v1.0.0'
+            artifactId = 'library'
+            version = 'v1.0.1'
 
             from components.java
         }
