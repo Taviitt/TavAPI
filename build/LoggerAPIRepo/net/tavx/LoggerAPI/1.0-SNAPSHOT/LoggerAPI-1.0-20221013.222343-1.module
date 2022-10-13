@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.tavx",
+    "module": "LoggerAPI",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "LoggerAPI-1.0-SNAPSHOT.jar",
+          "url": "LoggerAPI-1.0-SNAPSHOT.jar",
+          "size": 2521,
+          "sha512": "6b55b64c1cadf808a4f0b645de410e0ee2bcaf13cb90426d1883926308e7705429e000b4a1a5486dc94f5c85aa26f821068ea61e143ccb2608d98f66def432fe",
+          "sha256": "98ce535203cde9da00dba116903643c0ebddc0b874d7a27ec8cad3be04e391dc",
+          "sha1": "05b1e1327b2b069a8aa32cc71ad981d8f9830e39",
+          "md5": "53a8f05676e3eea62d444ba21deccefa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "LoggerAPI-1.0-SNAPSHOT.jar",
+          "url": "LoggerAPI-1.0-SNAPSHOT.jar",
+          "size": 2521,
+          "sha512": "6b55b64c1cadf808a4f0b645de410e0ee2bcaf13cb90426d1883926308e7705429e000b4a1a5486dc94f5c85aa26f821068ea61e143ccb2608d98f66def432fe",
+          "sha256": "98ce535203cde9da00dba116903643c0ebddc0b874d7a27ec8cad3be04e391dc",
+          "sha1": "05b1e1327b2b069a8aa32cc71ad981d8f9830e39",
+          "md5": "53a8f05676e3eea62d444ba21deccefa"
+        }
+      ]
+    }
+  ]
+}
