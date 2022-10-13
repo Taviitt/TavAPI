@@ -8,7 +8,7 @@ repositories {
 }
 
 dependencies {
-  compileOnly 'com.github.Taviitt:LoggerAPI:master-SNAPSHOT'
+  implementation 'com.github.Taviitt:LoggerAPI:master-SNAPSHOT'
 }
 ```
 
