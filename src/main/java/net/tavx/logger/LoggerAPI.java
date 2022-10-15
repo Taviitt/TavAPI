@@ -11,7 +11,7 @@ public class LoggerAPI {
      *
      * @param log | log message
      */
-    public static void log(Class<?> clazz, LogType type, String log) {
+    public static void log(Class<? extends JavaPlugin> clazz, LogType type, String log) {
         JavaPlugin plugin = JavaPlugin.getProvidingPlugin(clazz);
         plugin.getServer().getConsoleSender().sendMessage(
                 ChatColor.translateAlternateColorCodes('&', type.getColor() + "[" + getPluginName(clazz) + "] " + type.getName() + " | " + log)
